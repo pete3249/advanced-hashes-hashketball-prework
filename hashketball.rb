@@ -170,6 +170,7 @@ def team_names
   game_hash.each do |key, values|
     binding.pry
     team_names.push
+  end
 end
 
 def player_numbers(team_name)
