@@ -190,14 +190,23 @@ def player_numbers(team_name)
 end
 
 def player_stats(player_name)
-  player_stats = {}
+  player_stats = {:number => ,
+                  :shoe => ,
+                  :points => ,
+                  :rebounds => ,
+                  :assists => ,
+                  :steals => ,
+                  :blocks => ,
+                  :slam_dunks => 
+  }
+  
   game_hash.each do |key, values|
     values.each do |descriptors, data|
       if descriptors == :players
         data.each do |player|
-          binding.pry
-          #if player
-    
+          if player[:player_name] == player_name
+            
+          end
         end
       end
     end
