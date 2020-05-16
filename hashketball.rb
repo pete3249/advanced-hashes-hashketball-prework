@@ -1,11 +1,6 @@
-# Write your code here!
+require './hashketball.rb'
 
-
-
-
-
-
-
+game_hash
 
 
 
