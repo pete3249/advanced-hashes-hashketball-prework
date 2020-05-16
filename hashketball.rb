@@ -165,7 +165,12 @@ def team_colors(team_name)
   end
 end
 
-def 
+def team_names
+  team_names = []
+  game_hash.each do |key, values|
+    binding.pry
+    team_names.push
+end
 
 def player_numbers(team_name)
   jersey_numbers = []
