@@ -194,6 +194,7 @@ def player_stats(player_name)
     values.each do |descriptors, data|
       if descriptors == :players
         data.each do |player|
+          if player[:player_name]
       binding.pry
         end
       end
