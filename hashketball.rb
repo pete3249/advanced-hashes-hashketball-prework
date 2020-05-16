@@ -173,7 +173,7 @@ def player_numbers(team_name)
         if descriptors == :players
           data.each do |player|
             binding.pry
-            jersey_numbers = player[:number]
+            jersey_numbers.push([player[:number])
           end
         end
       end
