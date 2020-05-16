@@ -205,10 +205,9 @@ def player_stats(player_name)
       if descriptors == :players
         data.each do |player|
           if player[:player_name] == player_name
-            
-            
             player_stats[:number] = player[:number]
             player_stats[:shoe] = player[:shoe]
+            
           end
         end
       end
