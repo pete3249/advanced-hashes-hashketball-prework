@@ -205,7 +205,7 @@ def player_stats(player_name)
       if descriptors == :players
         data.each do |player|
           if player[:player_name] == player_name
-            
+            player_stats[:number] = game_hash[player][:number]
           end
         end
       end
