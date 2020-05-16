@@ -211,3 +211,16 @@ def player_stats(player_name)
   end
   player_stats
 end  
+
+def big_shoe_rebounds
+  game_hash.each do |key, values|
+    values.each do |descriptors, data|
+      if descriptors == :players
+        binding.pry
+        data.each do |player|
+          
+        end
+      end
+    end
+  end
+end
