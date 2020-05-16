@@ -190,9 +190,10 @@ def player_numbers(team_name)
 end
 
 def player_stats(player_name)
+  player_stats = {}
   game_hash.each do |key, values|
     values.each do |descriptors, data|
-      if 
+      
       
       
       if descriptors[:player_name] == player_name
