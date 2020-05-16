@@ -193,14 +193,11 @@ def player_stats(player_name)
   player_stats = {}
   game_hash.each do |key, values|
     values.each do |descriptors, data|
+      if descriptors == :players
+        data.each do |player|
+          if player
       
-      
-      
-      descriptors
-      
-      
-      if descriptors[:player_name] == player_name
-        descriptors
+    
         
         
         
