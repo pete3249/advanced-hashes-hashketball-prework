@@ -189,5 +189,13 @@ def player_numbers(team_name)
   jersey_numbers
 end
 
-def play
+def player_stats(player_name)
+  game_hash.each do |key, values|
+    values.each do |descriptors, data|
+      binding.pry
+      if 
+      end
+    end
+  end
+end
   
