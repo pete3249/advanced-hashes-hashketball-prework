@@ -213,11 +213,14 @@ def player_stats(player_name)
 end  
 
 def big_shoe_rebounds
+  shoe_size = 0
   game_hash.each do |key, values|
     values.each do |descriptors, data|
       if descriptors == :players
         data.each do |player|
-          
+          if player[:shoe] > shoe_size
+            shoe_size = player[:shoe]
+            
           binding.pry
         end
       end
