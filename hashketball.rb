@@ -169,9 +169,8 @@ def team_names
   team_names = []
   game_hash.each do |key, values|
     team_names.push(values[:team_name])
-    end 
-    team_names.push
   end
+  team_names
 end
 
 def player_numbers(team_name)
