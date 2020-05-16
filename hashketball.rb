@@ -217,6 +217,7 @@ def big_shoe_rebounds
     values.each do |descriptors, data|
       if descriptors == :players
         data.each do |player|
+          
           binding.pry
         end
       end
