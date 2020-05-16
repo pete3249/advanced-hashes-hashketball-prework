@@ -196,6 +196,9 @@ def player_stats(player_name)
       
       
       
+      descriptors
+      
+      
       if descriptors[:player_name] == player_name
         descriptors
         
